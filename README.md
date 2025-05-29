@@ -5,3 +5,5 @@
 crontab -l
 #删除定时
 crontab -l | grep -v "tun_debian" | crontab -
+#注意：如果你的后端没有科学环境，规则地址前记得添加镜像否则无法拉取。   例如：  
+https://ghp.ci/https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/config/singbox/config_tproxy.json
